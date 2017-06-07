@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Caravel", "Caravel\Caravel.vcxproj", "{1780A584-EF31-44D0-8EB5-FDA41C9C7C59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidBox", "MidBox\MidBox.vcxproj", "{11975565-F065-497E-B5EE-47CDA1130B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleAnalysis", "RuleAnalysis\RuleAnalysis.csproj", "{2F0FDB8B-3E06-43F4-9B3F-950BDE3C9062}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1780A584-EF31-44D0-8EB5-FDA41C9C7C59}.Debug|x86.ActiveCfg = Debug|Win32
+		{1780A584-EF31-44D0-8EB5-FDA41C9C7C59}.Debug|x86.Build.0 = Debug|Win32
+		{1780A584-EF31-44D0-8EB5-FDA41C9C7C59}.Release|x86.ActiveCfg = Release|Win32
+		{1780A584-EF31-44D0-8EB5-FDA41C9C7C59}.Release|x86.Build.0 = Release|Win32
+		{11975565-F065-497E-B5EE-47CDA1130B7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{11975565-F065-497E-B5EE-47CDA1130B7D}.Debug|x86.Build.0 = Debug|Win32
+		{11975565-F065-497E-B5EE-47CDA1130B7D}.Release|x86.ActiveCfg = Release|Win32
+		{11975565-F065-497E-B5EE-47CDA1130B7D}.Release|x86.Build.0 = Release|Win32
+		{2F0FDB8B-3E06-43F4-9B3F-950BDE3C9062}.Debug|x86.ActiveCfg = Debug|x86
+		{2F0FDB8B-3E06-43F4-9B3F-950BDE3C9062}.Debug|x86.Build.0 = Debug|x86
+		{2F0FDB8B-3E06-43F4-9B3F-950BDE3C9062}.Release|x86.ActiveCfg = Release|x86
+		{2F0FDB8B-3E06-43F4-9B3F-950BDE3C9062}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
